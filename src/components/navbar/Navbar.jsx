@@ -21,7 +21,6 @@ const Navbar = () => {
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}>
-                    Let's Explore
                 </motion.span>
                 <div className='social'>
                     {socialIcons.map((icon, index) => (
